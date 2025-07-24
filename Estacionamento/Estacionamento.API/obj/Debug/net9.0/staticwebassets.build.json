@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "KA9HAQkCslNX2647YDsDwDf3xBjcMlc7kq7Fz2wE7TU=",
+  "Source": "Estacionamento.API",
+  "BasePath": "_content/Estacionamento.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

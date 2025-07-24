@@ -1,0 +1,15 @@
+C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Application\bin\Debug\net9.0\Estacionamento.Application.deps.json
+C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Application\bin\Debug\net9.0\Estacionamento.Application.dll
+C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Application\bin\Debug\net9.0\Estacionamento.Application.pdb
+C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Application\bin\Debug\net9.0\Estacionamento.Domain.dll
+C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Application\bin\Debug\net9.0\Estacionamento.Domain.pdb
+C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Application\obj\Debug\net9.0\Estacionamento.Application.csproj.AssemblyReference.cache
+C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Application\obj\Debug\net9.0\Estacionamento.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Application\obj\Debug\net9.0\Estacionamento.Application.AssemblyInfoInputs.cache
+C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Application\obj\Debug\net9.0\Estacionamento.Application.AssemblyInfo.cs
+C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Application\obj\Debug\net9.0\Estacionamento.Application.csproj.CoreCompileInputs.cache
+C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Application\obj\Debug\net9.0\Estacion.9BD18D3F.Up2Date
+C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Application\obj\Debug\net9.0\Estacionamento.Application.dll
+C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Application\obj\Debug\net9.0\refint\Estacionamento.Application.dll
+C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Application\obj\Debug\net9.0\Estacionamento.Application.pdb
+C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Application\obj\Debug\net9.0\ref\Estacionamento.Application.dll
