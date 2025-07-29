@@ -13,3 +13,5 @@ C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Appli
 C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Application\obj\Debug\net9.0\refint\Estacionamento.Application.dll
 C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Application\obj\Debug\net9.0\Estacionamento.Application.pdb
 C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Application\obj\Debug\net9.0\ref\Estacionamento.Application.dll
+C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Application\bin\Debug\net9.0\Estacionamento.Infrastructure.dll
+C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Application\bin\Debug\net9.0\Estacionamento.Infrastructure.pdb

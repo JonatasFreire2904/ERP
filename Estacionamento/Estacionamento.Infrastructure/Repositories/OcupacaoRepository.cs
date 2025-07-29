@@ -28,4 +28,10 @@ public class OcupacaoRepository : IOcupacaoRepository
         _context.Ocupacoes.Update(ocupacao);
         await Task.CompletedTask;
     }
+
+    public async Task<Ocupacao?> ObterAtivaPorCarroIdAsync(Guid carroId)
+    {
+        return await _context.Ocupacoes
+            .FirstOrDefaultAsync(o => o.CarroId == carroId && o.Saida == null);
+    }
 }

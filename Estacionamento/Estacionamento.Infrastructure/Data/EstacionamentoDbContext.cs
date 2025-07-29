@@ -26,6 +26,22 @@ namespace Estacionamento.Infrastructure.Data
                 .WithMany()
                 .HasForeignKey(o => o.CarroId)
                 .OnDelete(DeleteBehavior.Restrict);
+
+            // Seed de 100 vagas
+            var vagas = new List<Vaga>();
+            for (int i = 1; i <= 100; i++)
+            {
+                vagas.Add(new Vaga
+                {
+                    Id = Guid.Parse($"00000000-0000-0000-0000-{i:D12}"), // Ids fixos e únicos
+                    Codigo = $"V{i:D3}",
+                    Numero = i, // Adicionado para o número simples
+                    Ocupada = false
+                });
+            }
+
+
+            modelBuilder.Entity<Vaga>().HasData(vagas);
         }
     }
 }

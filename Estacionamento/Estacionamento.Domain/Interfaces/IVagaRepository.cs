@@ -9,4 +9,6 @@ public interface IVagaRepository
     Task<List<Vaga>> ListarDisponiveisAsync();
     Task AdicionarAsync(Vaga vaga);
     Task AtualizarAsync(Vaga vaga);
+    Task<Vaga?> ObterPrimeiraDisponivelAsync();
+
 }

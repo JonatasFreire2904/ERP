@@ -2,6 +2,7 @@
 using Estacionamento.Domain.Interfaces;
 using Estacionamento.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
+using System.Text.Json.Serialization;
 
 namespace Estacionamento.Infrastructure.Repositories;
 
@@ -31,4 +32,12 @@ public class VagaRepository : IVagaRepository
         _context.Vagas.Update(vaga);
         await Task.CompletedTask;
     }
+
+    public async Task<Vaga?> ObterPrimeiraDisponivelAsync()
+    {
+        return await _context.Vagas
+            .Include(v => v.OcupacaoAtual)
+            .FirstOrDefaultAsync(v => !v.Ocupada);
+    }
+
 }

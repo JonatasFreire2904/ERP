@@ -21,7 +21,7 @@ builder.Services.AddScoped<IVagaService, VagaService>();
 // 📦 AddControllers + Swagger
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
-// builder.Services.AddSwaggerGen(); // This line is commented out as per the edit hint
+builder.Services.AddSwaggerGen();
 
 // 🌐 CORS (para Blazor WebAssembly)
 builder.Services.AddCors(options =>
@@ -40,8 +40,8 @@ var app = builder.Build();
 // 🛠 Middleware de desenvolvimento
 if (app.Environment.IsDevelopment())
 {
-    // app.UseSwagger(); // This line is commented out as per the edit hint
-    // app.UseSwaggerUI(); // Enable Swagger UI in development
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
 // 🌐 Ativar CORS

@@ -9,4 +9,3 @@ C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Domai
 C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Domain\obj\Debug\net9.0\refint\Estacionamento.Domain.dll
 C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Domain\obj\Debug\net9.0\Estacionamento.Domain.pdb
 C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Domain\obj\Debug\net9.0\ref\Estacionamento.Domain.dll
-C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Domain\obj\Debug\net9.0\Estacionamento.Domain.csproj.AssemblyReference.cache

@@ -19,4 +19,9 @@ public class CarroRepository : ICarroRepository
 
     public async Task AdicionarAsync(Carro carro) =>
         await _context.Carros.AddAsync(carro);
+
+    public async Task<Carro?> ObterPorIdAsync(Guid id)
+    {
+        return await _context.Carros.FindAsync(id);
+    }
 }

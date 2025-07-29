@@ -3,19 +3,47 @@
   "WorkspaceRootPath": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2511C2AB-6765-48CF-BC0E-9CAF3CE12425}|Estacionamento.API\\Estacionamento.API.csproj|c:\\users\\jonat\\desktop\\newton\\estacionamento\\estacionamento\\estacionamento.api\\controllers\\vagascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2511C2AB-6765-48CF-BC0E-9CAF3CE12425}|Estacionamento.API\\Estacionamento.API.csproj|solutionrelative:estacionamento.api\\controllers\\vagascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EDC08A7-5B81-4E9F-9906-2FEE9F704823}|Estacionamento.Application\\Estacionamento.Application.csproj|c:\\users\\jonat\\desktop\\newton\\estacionamento\\estacionamento\\estacionamento.application\\service\\vagaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EDC08A7-5B81-4E9F-9906-2FEE9F704823}|Estacionamento.Application\\Estacionamento.Application.csproj|solutionrelative:estacionamento.application\\service\\vagaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA958F7-B8A9-4D50-BF3E-1AC51AF098BA}|Estacionamento.Infrastructure\\Estacionamento.Infrastructure.csproj|c:\\users\\jonat\\desktop\\newton\\estacionamento\\estacionamento\\estacionamento.infrastructure\\repositories\\vagarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FA958F7-B8A9-4D50-BF3E-1AC51AF098BA}|Estacionamento.Infrastructure\\Estacionamento.Infrastructure.csproj|solutionrelative:estacionamento.infrastructure\\repositories\\vagarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E28CD231-A22E-4AC1-AAB0-4AC7AD99F4A1}|Estacionamento.Domain\\Estacionamento.Domain.csproj|c:\\users\\jonat\\desktop\\newton\\estacionamento\\estacionamento\\estacionamento.domain\\entities\\vaga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E28CD231-A22E-4AC1-AAB0-4AC7AD99F4A1}|Estacionamento.Domain\\Estacionamento.Domain.csproj|solutionrelative:estacionamento.domain\\entities\\vaga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EDC08A7-5B81-4E9F-9906-2FEE9F704823}|Estacionamento.Application\\Estacionamento.Application.csproj|c:\\users\\jonat\\desktop\\newton\\estacionamento\\estacionamento\\estacionamento.application\\models\\vagaentradadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EDC08A7-5B81-4E9F-9906-2FEE9F704823}|Estacionamento.Application\\Estacionamento.Application.csproj|solutionrelative:estacionamento.application\\models\\vagaentradadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E28CD231-A22E-4AC1-AAB0-4AC7AD99F4A1}|Estacionamento.Domain\\Estacionamento.Domain.csproj|c:\\users\\jonat\\desktop\\newton\\estacionamento\\estacionamento\\estacionamento.domain\\interfaces\\ivagarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E28CD231-A22E-4AC1-AAB0-4AC7AD99F4A1}|Estacionamento.Domain\\Estacionamento.Domain.csproj|solutionrelative:estacionamento.domain\\interfaces\\ivagarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2511C2AB-6765-48CF-BC0E-9CAF3CE12425}|Estacionamento.API\\Estacionamento.API.csproj|c:\\users\\jonat\\desktop\\newton\\estacionamento\\estacionamento\\estacionamento.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2511C2AB-6765-48CF-BC0E-9CAF3CE12425}|Estacionamento.API\\Estacionamento.API.csproj|solutionrelative:estacionamento.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FA958F7-B8A9-4D50-BF3E-1AC51AF098BA}|Estacionamento.Infrastructure\\Estacionamento.Infrastructure.csproj|c:\\users\\jonat\\desktop\\newton\\estacionamento\\estacionamento\\estacionamento.infrastructure\\data\\estacionamentodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FA958F7-B8A9-4D50-BF3E-1AC51AF098BA}|Estacionamento.Infrastructure\\Estacionamento.Infrastructure.csproj|solutionrelative:estacionamento.infrastructure\\data\\estacionamentodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8FA958F7-B8A9-4D50-BF3E-1AC51AF098BA}|Estacionamento.Infrastructure\\Estacionamento.Infrastructure.csproj|c:\\users\\jonat\\desktop\\newton\\estacionamento\\estacionamento\\estacionamento.infrastructure\\estacionamento.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8FA958F7-B8A9-4D50-BF3E-1AC51AF098BA}|Estacionamento.Infrastructure\\Estacionamento.Infrastructure.csproj|solutionrelative:estacionamento.infrastructure\\estacionamento.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EDC08A7-5B81-4E9F-9906-2FEE9F704823}|Estacionamento.Application\\Estacionamento.Application.csproj|c:\\users\\jonat\\desktop\\newton\\estacionamento\\estacionamento\\estacionamento.application\\estacionamento.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4EDC08A7-5B81-4E9F-9906-2FEE9F704823}|Estacionamento.Application\\Estacionamento.Application.csproj|solutionrelative:estacionamento.application\\estacionamento.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EDC08A7-5B81-4E9F-9906-2FEE9F704823}|Estacionamento.Application\\Estacionamento.Application.csproj|c:\\users\\jonat\\desktop\\newton\\estacionamento\\estacionamento\\estacionamento.application\\models\\vagasaidadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EDC08A7-5B81-4E9F-9906-2FEE9F704823}|Estacionamento.Application\\Estacionamento.Application.csproj|solutionrelative:estacionamento.application\\models\\vagasaidadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2511C2AB-6765-48CF-BC0E-9CAF3CE12425}|Estacionamento.API\\Estacionamento.API.csproj|c:\\users\\jonat\\desktop\\newton\\estacionamento\\estacionamento\\estacionamento.api\\estacionamento.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{2511C2AB-6765-48CF-BC0E-9CAF3CE12425}|Estacionamento.API\\Estacionamento.API.csproj|solutionrelative:estacionamento.api\\estacionamento.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8FA958F7-B8A9-4D50-BF3E-1AC51AF098BA}|Estacionamento.Infrastructure\\Estacionamento.Infrastructure.csproj|c:\\users\\jonat\\desktop\\newton\\estacionamento\\estacionamento\\estacionamento.infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,36 +58,12 @@
       "RelativeMoniker": "D:0:0:{8FA958F7-B8A9-4D50-BF3E-1AC51AF098BA}|Estacionamento.Infrastructure\\Estacionamento.Infrastructure.csproj|solutionrelative:estacionamento.infrastructure\\repositories\\carrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FA958F7-B8A9-4D50-BF3E-1AC51AF098BA}|Estacionamento.Infrastructure\\Estacionamento.Infrastructure.csproj|c:\\users\\jonat\\desktop\\newton\\estacionamento\\estacionamento\\estacionamento.infrastructure\\repositories\\vagarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FA958F7-B8A9-4D50-BF3E-1AC51AF098BA}|Estacionamento.Infrastructure\\Estacionamento.Infrastructure.csproj|solutionrelative:estacionamento.infrastructure\\repositories\\vagarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E28CD231-A22E-4AC1-AAB0-4AC7AD99F4A1}|Estacionamento.Domain\\Estacionamento.Domain.csproj|c:\\users\\jonat\\desktop\\newton\\estacionamento\\estacionamento\\estacionamento.domain\\interfaces\\iocupacaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E28CD231-A22E-4AC1-AAB0-4AC7AD99F4A1}|Estacionamento.Domain\\Estacionamento.Domain.csproj|solutionrelative:estacionamento.domain\\interfaces\\iocupacaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E28CD231-A22E-4AC1-AAB0-4AC7AD99F4A1}|Estacionamento.Domain\\Estacionamento.Domain.csproj|c:\\users\\jonat\\desktop\\newton\\estacionamento\\estacionamento\\estacionamento.domain\\entities\\vaga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E28CD231-A22E-4AC1-AAB0-4AC7AD99F4A1}|Estacionamento.Domain\\Estacionamento.Domain.csproj|solutionrelative:estacionamento.domain\\entities\\vaga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E28CD231-A22E-4AC1-AAB0-4AC7AD99F4A1}|Estacionamento.Domain\\Estacionamento.Domain.csproj|c:\\users\\jonat\\desktop\\newton\\estacionamento\\estacionamento\\estacionamento.domain\\entities\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E28CD231-A22E-4AC1-AAB0-4AC7AD99F4A1}|Estacionamento.Domain\\Estacionamento.Domain.csproj|solutionrelative:estacionamento.domain\\entities\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E28CD231-A22E-4AC1-AAB0-4AC7AD99F4A1}|Estacionamento.Domain\\Estacionamento.Domain.csproj|c:\\users\\jonat\\desktop\\newton\\estacionamento\\estacionamento\\estacionamento.domain\\entities\\ocupacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E28CD231-A22E-4AC1-AAB0-4AC7AD99F4A1}|Estacionamento.Domain\\Estacionamento.Domain.csproj|solutionrelative:estacionamento.domain\\entities\\ocupacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FA958F7-B8A9-4D50-BF3E-1AC51AF098BA}|Estacionamento.Infrastructure\\Estacionamento.Infrastructure.csproj|c:\\users\\jonat\\desktop\\newton\\estacionamento\\estacionamento\\estacionamento.infrastructure\\estacionamento.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{8FA958F7-B8A9-4D50-BF3E-1AC51AF098BA}|Estacionamento.Infrastructure\\Estacionamento.Infrastructure.csproj|solutionrelative:estacionamento.infrastructure\\estacionamento.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E28CD231-A22E-4AC1-AAB0-4AC7AD99F4A1}|Estacionamento.Domain\\Estacionamento.Domain.csproj|c:\\users\\jonat\\desktop\\newton\\estacionamento\\estacionamento\\estacionamento.domain\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E28CD231-A22E-4AC1-AAB0-4AC7AD99F4A1}|Estacionamento.Domain\\Estacionamento.Domain.csproj|solutionrelative:estacionamento.domain\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E28CD231-A22E-4AC1-AAB0-4AC7AD99F4A1}|Estacionamento.Domain\\Estacionamento.Domain.csproj|c:\\users\\jonat\\desktop\\newton\\estacionamento\\estacionamento\\estacionamento.domain\\interfaces\\ivagarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E28CD231-A22E-4AC1-AAB0-4AC7AD99F4A1}|Estacionamento.Domain\\Estacionamento.Domain.csproj|solutionrelative:estacionamento.domain\\interfaces\\ivagarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E28CD231-A22E-4AC1-AAB0-4AC7AD99F4A1}|Estacionamento.Domain\\Estacionamento.Domain.csproj|c:\\users\\jonat\\desktop\\newton\\estacionamento\\estacionamento\\estacionamento.domain\\interfaces\\icarrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -73,34 +77,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
-              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
-              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
-              "ViewState": "AgIAAPEBAAAAAAAAAAArwP8BAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-07-20T16:25:01.322Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Estacionamento.API",
-              "DocumentMoniker": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.API\\Estacionamento.API.csproj",
-              "RelativeDocumentMoniker": "Estacionamento.API\\Estacionamento.API.csproj",
-              "ToolTip": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.API\\Estacionamento.API.csproj",
-              "RelativeToolTip": "Estacionamento.API\\Estacionamento.API.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-20T16:16:28.661Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -112,6 +90,170 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "VagasController.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.API\\Controllers\\VagasController.cs",
+              "RelativeDocumentMoniker": "Estacionamento.API\\Controllers\\VagasController.cs",
+              "ToolTip": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.API\\Controllers\\VagasController.cs*",
+              "RelativeToolTip": "Estacionamento.API\\Controllers\\VagasController.cs*",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T22:48:58.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Vaga.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Domain\\Entities\\Vaga.cs",
+              "RelativeDocumentMoniker": "Estacionamento.Domain\\Entities\\Vaga.cs",
+              "ToolTip": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Domain\\Entities\\Vaga.cs",
+              "RelativeToolTip": "Estacionamento.Domain\\Entities\\Vaga.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T22:21:27.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VagaEntradaDto.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Application\\Models\\VagaEntradaDto.cs",
+              "RelativeDocumentMoniker": "Estacionamento.Application\\Models\\VagaEntradaDto.cs",
+              "ToolTip": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Application\\Models\\VagaEntradaDto.cs",
+              "RelativeToolTip": "Estacionamento.Application\\Models\\VagaEntradaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T22:21:20.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VagaService.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Application\\Service\\VagaService.cs",
+              "RelativeDocumentMoniker": "Estacionamento.Application\\Service\\VagaService.cs",
+              "ToolTip": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Application\\Service\\VagaService.cs*",
+              "RelativeToolTip": "Estacionamento.Application\\Service\\VagaService.cs*",
+              "ViewState": "AgIAABYAAAAAAAAAAAAwwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T22:19:27.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VagaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Infrastructure\\Repositories\\VagaRepository.cs",
+              "RelativeDocumentMoniker": "Estacionamento.Infrastructure\\Repositories\\VagaRepository.cs",
+              "ToolTip": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Infrastructure\\Repositories\\VagaRepository.cs",
+              "RelativeToolTip": "Estacionamento.Infrastructure\\Repositories\\VagaRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T14:48:48.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Estacionamento.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Application\\Estacionamento.Application.csproj",
+              "RelativeDocumentMoniker": "Estacionamento.Application\\Estacionamento.Application.csproj",
+              "ToolTip": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Application\\Estacionamento.Application.csproj",
+              "RelativeToolTip": "Estacionamento.Application\\Estacionamento.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-23T10:39:55.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "VagaSaidaDto.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Application\\Models\\VagaSaidaDto.cs",
+              "RelativeDocumentMoniker": "Estacionamento.Application\\Models\\VagaSaidaDto.cs",
+              "ToolTip": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Application\\Models\\VagaSaidaDto.cs",
+              "RelativeToolTip": "Estacionamento.Application\\Models\\VagaSaidaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T10:41:40.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
+              "ViewState": "AgIAAPEBAAAAAAAAAAArwP8BAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-07-20T16:25:01.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Estacionamento.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "Estacionamento.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T16:07:07.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OcupacaoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Infrastructure\\Repositories\\OcupacaoRepository.cs",
+              "RelativeDocumentMoniker": "Estacionamento.Infrastructure\\Repositories\\OcupacaoRepository.cs",
+              "ToolTip": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Infrastructure\\Repositories\\OcupacaoRepository.cs",
+              "RelativeToolTip": "Estacionamento.Infrastructure\\Repositories\\OcupacaoRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T16:06:24.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CarroRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Infrastructure\\Repositories\\CarroRepository.cs",
+              "RelativeDocumentMoniker": "Estacionamento.Infrastructure\\Repositories\\CarroRepository.cs",
+              "ToolTip": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Infrastructure\\Repositories\\CarroRepository.cs",
+              "RelativeToolTip": "Estacionamento.Infrastructure\\Repositories\\CarroRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T16:05:53.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IVagaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Domain\\Interfaces\\IVagaRepository.cs",
+              "RelativeDocumentMoniker": "Estacionamento.Domain\\Interfaces\\IVagaRepository.cs",
+              "ToolTip": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Domain\\Interfaces\\IVagaRepository.cs*",
+              "RelativeToolTip": "Estacionamento.Domain\\Interfaces\\IVagaRepository.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T10:35:28.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Estacionamento.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Infrastructure\\Estacionamento.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Estacionamento.Infrastructure\\Estacionamento.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Infrastructure\\Estacionamento.Infrastructure.csproj",
+              "RelativeToolTip": "Estacionamento.Infrastructure\\Estacionamento.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-18T10:29:24.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.API\\Program.cs",
               "RelativeDocumentMoniker": "Estacionamento.API\\Program.cs",
@@ -124,98 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Infrastructure\\Repositories\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "Estacionamento.Infrastructure\\Repositories\\UnitOfWork.cs",
-              "ToolTip": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Infrastructure\\Repositories\\UnitOfWork.cs",
-              "RelativeToolTip": "Estacionamento.Infrastructure\\Repositories\\UnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T16:07:07.724Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EstacionamentoDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Infrastructure\\Data\\EstacionamentoDbContext.cs",
-              "RelativeDocumentMoniker": "Estacionamento.Infrastructure\\Data\\EstacionamentoDbContext.cs",
-              "ToolTip": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Infrastructure\\Data\\EstacionamentoDbContext.cs",
-              "RelativeToolTip": "Estacionamento.Infrastructure\\Data\\EstacionamentoDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T14:45:07.186Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "OcupacaoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Infrastructure\\Repositories\\OcupacaoRepository.cs",
-              "RelativeDocumentMoniker": "Estacionamento.Infrastructure\\Repositories\\OcupacaoRepository.cs",
-              "ToolTip": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Infrastructure\\Repositories\\OcupacaoRepository.cs",
-              "RelativeToolTip": "Estacionamento.Infrastructure\\Repositories\\OcupacaoRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T16:06:24.958Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CarroRepository.cs",
-              "DocumentMoniker": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Infrastructure\\Repositories\\CarroRepository.cs",
-              "RelativeDocumentMoniker": "Estacionamento.Infrastructure\\Repositories\\CarroRepository.cs",
-              "ToolTip": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Infrastructure\\Repositories\\CarroRepository.cs",
-              "RelativeToolTip": "Estacionamento.Infrastructure\\Repositories\\CarroRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T16:05:53.479Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "VagaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Infrastructure\\Repositories\\VagaRepository.cs",
-              "RelativeDocumentMoniker": "Estacionamento.Infrastructure\\Repositories\\VagaRepository.cs",
-              "ToolTip": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Infrastructure\\Repositories\\VagaRepository.cs",
-              "RelativeToolTip": "Estacionamento.Infrastructure\\Repositories\\VagaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T14:48:48.133Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Vaga.cs",
-              "DocumentMoniker": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Domain\\Entities\\Vaga.cs",
-              "RelativeDocumentMoniker": "Estacionamento.Domain\\Entities\\Vaga.cs",
-              "ToolTip": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Domain\\Entities\\Vaga.cs",
-              "RelativeToolTip": "Estacionamento.Domain\\Entities\\Vaga.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T10:34:18.805Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Carro.cs",
-              "DocumentMoniker": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Domain\\Entities\\Carro.cs",
-              "RelativeDocumentMoniker": "Estacionamento.Domain\\Entities\\Carro.cs",
-              "ToolTip": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Domain\\Entities\\Carro.cs",
-              "RelativeToolTip": "Estacionamento.Domain\\Entities\\Carro.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T10:34:38.665Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "IOcupacaoRepository.cs",
               "DocumentMoniker": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Domain\\Interfaces\\IOcupacaoRepository.cs",
               "RelativeDocumentMoniker": "Estacionamento.Domain\\Interfaces\\IOcupacaoRepository.cs",
@@ -223,38 +274,11 @@
               "RelativeToolTip": "Estacionamento.Domain\\Interfaces\\IOcupacaoRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T10:35:46.154Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T10:35:46.154Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Estacionamento.Infrastructure.csproj",
-              "DocumentMoniker": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Infrastructure\\Estacionamento.Infrastructure.csproj",
-              "RelativeDocumentMoniker": "Estacionamento.Infrastructure\\Estacionamento.Infrastructure.csproj",
-              "ToolTip": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Infrastructure\\Estacionamento.Infrastructure.csproj",
-              "RelativeToolTip": "Estacionamento.Infrastructure\\Estacionamento.Infrastructure.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-18T10:29:24.553Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IVagaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Domain\\Interfaces\\IVagaRepository.cs",
-              "RelativeDocumentMoniker": "Estacionamento.Domain\\Interfaces\\IVagaRepository.cs",
-              "ToolTip": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Domain\\Interfaces\\IVagaRepository.cs",
-              "RelativeToolTip": "Estacionamento.Domain\\Interfaces\\IVagaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T10:35:28.769Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Domain\\Interfaces\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "Estacionamento.Domain\\Interfaces\\IUnitOfWork.cs",
@@ -262,12 +286,11 @@
               "RelativeToolTip": "Estacionamento.Domain\\Interfaces\\IUnitOfWork.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T10:35:58.011Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T10:35:58.011Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ICarroRepository.cs",
               "DocumentMoniker": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Domain\\Interfaces\\ICarroRepository.cs",
               "RelativeDocumentMoniker": "Estacionamento.Domain\\Interfaces\\ICarroRepository.cs",
@@ -275,21 +298,7 @@
               "RelativeToolTip": "Estacionamento.Domain\\Interfaces\\ICarroRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T10:26:37.028Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Ocupacao.cs",
-              "DocumentMoniker": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Domain\\Entities\\Ocupacao.cs",
-              "RelativeDocumentMoniker": "Estacionamento.Domain\\Entities\\Ocupacao.cs",
-              "ToolTip": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Domain\\Entities\\Ocupacao.cs",
-              "RelativeToolTip": "Estacionamento.Domain\\Entities\\Ocupacao.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T10:34:50.182Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T10:26:37.028Z"
             }
           ]
         },

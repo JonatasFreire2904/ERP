@@ -78,12 +78,717 @@ namespace Estacionamento.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
+                    b.Property<int>("Numero")
+                        .HasColumnType("INTEGER");
+
                     b.Property<bool>("Ocupada")
                         .HasColumnType("INTEGER");
 
                     b.HasKey("Id");
 
                     b.ToTable("Vagas");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000001"),
+                            Codigo = "V001",
+                            Numero = 1,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000002"),
+                            Codigo = "V002",
+                            Numero = 2,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000003"),
+                            Codigo = "V003",
+                            Numero = 3,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000004"),
+                            Codigo = "V004",
+                            Numero = 4,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000005"),
+                            Codigo = "V005",
+                            Numero = 5,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000006"),
+                            Codigo = "V006",
+                            Numero = 6,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000007"),
+                            Codigo = "V007",
+                            Numero = 7,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000008"),
+                            Codigo = "V008",
+                            Numero = 8,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000009"),
+                            Codigo = "V009",
+                            Numero = 9,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000010"),
+                            Codigo = "V010",
+                            Numero = 10,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000011"),
+                            Codigo = "V011",
+                            Numero = 11,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000012"),
+                            Codigo = "V012",
+                            Numero = 12,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000013"),
+                            Codigo = "V013",
+                            Numero = 13,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000014"),
+                            Codigo = "V014",
+                            Numero = 14,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000015"),
+                            Codigo = "V015",
+                            Numero = 15,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000016"),
+                            Codigo = "V016",
+                            Numero = 16,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000017"),
+                            Codigo = "V017",
+                            Numero = 17,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000018"),
+                            Codigo = "V018",
+                            Numero = 18,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000019"),
+                            Codigo = "V019",
+                            Numero = 19,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000020"),
+                            Codigo = "V020",
+                            Numero = 20,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000021"),
+                            Codigo = "V021",
+                            Numero = 21,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000022"),
+                            Codigo = "V022",
+                            Numero = 22,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000023"),
+                            Codigo = "V023",
+                            Numero = 23,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000024"),
+                            Codigo = "V024",
+                            Numero = 24,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000025"),
+                            Codigo = "V025",
+                            Numero = 25,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000026"),
+                            Codigo = "V026",
+                            Numero = 26,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000027"),
+                            Codigo = "V027",
+                            Numero = 27,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000028"),
+                            Codigo = "V028",
+                            Numero = 28,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000029"),
+                            Codigo = "V029",
+                            Numero = 29,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000030"),
+                            Codigo = "V030",
+                            Numero = 30,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000031"),
+                            Codigo = "V031",
+                            Numero = 31,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000032"),
+                            Codigo = "V032",
+                            Numero = 32,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000033"),
+                            Codigo = "V033",
+                            Numero = 33,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000034"),
+                            Codigo = "V034",
+                            Numero = 34,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000035"),
+                            Codigo = "V035",
+                            Numero = 35,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000036"),
+                            Codigo = "V036",
+                            Numero = 36,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000037"),
+                            Codigo = "V037",
+                            Numero = 37,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000038"),
+                            Codigo = "V038",
+                            Numero = 38,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000039"),
+                            Codigo = "V039",
+                            Numero = 39,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000040"),
+                            Codigo = "V040",
+                            Numero = 40,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000041"),
+                            Codigo = "V041",
+                            Numero = 41,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000042"),
+                            Codigo = "V042",
+                            Numero = 42,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000043"),
+                            Codigo = "V043",
+                            Numero = 43,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000044"),
+                            Codigo = "V044",
+                            Numero = 44,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000045"),
+                            Codigo = "V045",
+                            Numero = 45,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000046"),
+                            Codigo = "V046",
+                            Numero = 46,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000047"),
+                            Codigo = "V047",
+                            Numero = 47,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000048"),
+                            Codigo = "V048",
+                            Numero = 48,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000049"),
+                            Codigo = "V049",
+                            Numero = 49,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000050"),
+                            Codigo = "V050",
+                            Numero = 50,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000051"),
+                            Codigo = "V051",
+                            Numero = 51,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000052"),
+                            Codigo = "V052",
+                            Numero = 52,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000053"),
+                            Codigo = "V053",
+                            Numero = 53,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000054"),
+                            Codigo = "V054",
+                            Numero = 54,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000055"),
+                            Codigo = "V055",
+                            Numero = 55,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000056"),
+                            Codigo = "V056",
+                            Numero = 56,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000057"),
+                            Codigo = "V057",
+                            Numero = 57,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000058"),
+                            Codigo = "V058",
+                            Numero = 58,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000059"),
+                            Codigo = "V059",
+                            Numero = 59,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000060"),
+                            Codigo = "V060",
+                            Numero = 60,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000061"),
+                            Codigo = "V061",
+                            Numero = 61,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000062"),
+                            Codigo = "V062",
+                            Numero = 62,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000063"),
+                            Codigo = "V063",
+                            Numero = 63,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000064"),
+                            Codigo = "V064",
+                            Numero = 64,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000065"),
+                            Codigo = "V065",
+                            Numero = 65,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000066"),
+                            Codigo = "V066",
+                            Numero = 66,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000067"),
+                            Codigo = "V067",
+                            Numero = 67,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000068"),
+                            Codigo = "V068",
+                            Numero = 68,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000069"),
+                            Codigo = "V069",
+                            Numero = 69,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000070"),
+                            Codigo = "V070",
+                            Numero = 70,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000071"),
+                            Codigo = "V071",
+                            Numero = 71,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000072"),
+                            Codigo = "V072",
+                            Numero = 72,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000073"),
+                            Codigo = "V073",
+                            Numero = 73,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000074"),
+                            Codigo = "V074",
+                            Numero = 74,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000075"),
+                            Codigo = "V075",
+                            Numero = 75,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000076"),
+                            Codigo = "V076",
+                            Numero = 76,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000077"),
+                            Codigo = "V077",
+                            Numero = 77,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000078"),
+                            Codigo = "V078",
+                            Numero = 78,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000079"),
+                            Codigo = "V079",
+                            Numero = 79,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000080"),
+                            Codigo = "V080",
+                            Numero = 80,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000081"),
+                            Codigo = "V081",
+                            Numero = 81,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000082"),
+                            Codigo = "V082",
+                            Numero = 82,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000083"),
+                            Codigo = "V083",
+                            Numero = 83,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000084"),
+                            Codigo = "V084",
+                            Numero = 84,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000085"),
+                            Codigo = "V085",
+                            Numero = 85,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000086"),
+                            Codigo = "V086",
+                            Numero = 86,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000087"),
+                            Codigo = "V087",
+                            Numero = 87,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000088"),
+                            Codigo = "V088",
+                            Numero = 88,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000089"),
+                            Codigo = "V089",
+                            Numero = 89,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000090"),
+                            Codigo = "V090",
+                            Numero = 90,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000091"),
+                            Codigo = "V091",
+                            Numero = 91,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000092"),
+                            Codigo = "V092",
+                            Numero = 92,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000093"),
+                            Codigo = "V093",
+                            Numero = 93,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000094"),
+                            Codigo = "V094",
+                            Numero = 94,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000095"),
+                            Codigo = "V095",
+                            Numero = 95,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000096"),
+                            Codigo = "V096",
+                            Numero = 96,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000097"),
+                            Codigo = "V097",
+                            Numero = 97,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000098"),
+                            Codigo = "V098",
+                            Numero = 98,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000099"),
+                            Codigo = "V099",
+                            Numero = 99,
+                            Ocupada = false
+                        },
+                        new
+                        {
+                            Id = new Guid("00000000-0000-0000-0000-000000000100"),
+                            Codigo = "V100",
+                            Numero = 100,
+                            Ocupada = false
+                        });
                 });
 
             modelBuilder.Entity("Estacionamento.Domain.Entities.Ocupacao", b =>

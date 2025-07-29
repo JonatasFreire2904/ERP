@@ -1,10 +1,7 @@
-﻿namespace Estacionamento.Application.Models
+﻿public class VagaEntradaDto
 {
-    public class VagaEntradaDto
-    {
-        public string Placa { get; set; }
-        public string Modelo { get; set; }
-        public string Cor { get; set; }
-        public int VagaId { get; set; }
-    }
+    public int Numero { get; set; } // Simple spot number
+    public string Placa { get; set; } = string.Empty;
+    public string Modelo { get; set; } = string.Empty;
+    public string Cor { get; set; } = string.Empty;
 }

@@ -8,4 +8,5 @@ public interface IOcupacaoRepository
     Task<Ocupacao?> ObterPorIdAsync(Guid id);
     Task AdicionarAsync(Ocupacao ocupacao);
     Task AtualizarAsync(Ocupacao ocupacao);
+    Task<Ocupacao?> ObterAtivaPorCarroIdAsync(Guid carroId);
 }

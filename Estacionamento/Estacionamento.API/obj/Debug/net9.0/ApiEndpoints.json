@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "Estacionamento.API.Controllers.VagasController",
+    "Method": "ListarVagas",
+    "RelativePath": "api/vaga",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Estacionamento.API.Controllers.VagasController",
+    "Method": "RegistrarEntrada",
+    "RelativePath": "api/vaga/entrada",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Estacionamento.Application.Models.VagaEntradaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Estacionamento.API.Controllers.VagasController",
+    "Method": "RegistrarSaida",
+    "RelativePath": "api/vaga/saida",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Estacionamento.Application.Models.VagaSaidaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
