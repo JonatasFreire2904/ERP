@@ -17,6 +17,18 @@
         }
       }
     },
+    "/api/vaga/ocupadas": {
+      "get": {
+        "tags": [
+          "Vagas"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/vaga/entrada": {
       "post": {
         "tags": [
@@ -85,6 +97,10 @@
       "VagaEntradaDto": {
         "type": "object",
         "properties": {
+          "numero": {
+            "type": "integer",
+            "format": "int32"
+          },
           "placa": {
             "type": "string",
             "nullable": true
@@ -96,10 +112,6 @@
           "cor": {
             "type": "string",
             "nullable": true
-          },
-          "vagaId": {
-            "type": "string",
-            "format": "uuid"
           }
         },
         "additionalProperties": false

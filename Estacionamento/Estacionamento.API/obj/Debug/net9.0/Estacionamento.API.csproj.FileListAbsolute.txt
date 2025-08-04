@@ -168,3 +168,4 @@ C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.API\b
 C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.API\bin\Debug\net9.0\runtimes\win7-x86\native\sqlite3.dll
 C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.API\bin\Debug\net9.0\runtimes\linux-musl-riscv64\native\libe_sqlite3.so
 C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.API\bin\Debug\net9.0\runtimes\linux-riscv64\native\libe_sqlite3.so
+C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.API\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

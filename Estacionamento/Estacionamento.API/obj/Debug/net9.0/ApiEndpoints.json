@@ -19,10 +19,20 @@
     "Parameters": [
       {
         "Name": "dto",
-        "Type": "Estacionamento.Application.Models.VagaEntradaDto",
+        "Type": "VagaEntradaDto",
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Estacionamento.API.Controllers.VagasController",
+    "Method": "ListarVagasOcupadas",
+    "RelativePath": "api/vaga/ocupadas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
