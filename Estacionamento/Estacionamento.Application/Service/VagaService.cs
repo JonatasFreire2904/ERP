@@ -1,7 +1,12 @@
-﻿using Estacionamento.Application.Interfaces;
+using Estacionamento.Application.Interfaces;
 using Estacionamento.Application.Models;
 using Estacionamento.Domain.Entities;
 using Estacionamento.Domain.Interfaces;
+using Microsoft.Extensions.Options;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace Estacionamento.Application.Services
 {
@@ -11,17 +16,20 @@ namespace Estacionamento.Application.Services
         private readonly ICarroRepository _carroRepository;
         private readonly IOcupacaoRepository _ocupacaoRepository;
         private readonly IUnitOfWork _unitOfWork;
+        private readonly TarifaConfig _tarifaConfig;
 
         public VagaService(
             IVagaRepository vagaRepository,
             ICarroRepository carroRepository,
             IOcupacaoRepository ocupacaoRepository,
-            IUnitOfWork unitOfWork)
+            IUnitOfWork unitOfWork,
+            IOptions<TarifaConfig> tarifaConfig)
         {
             _vagaRepository = vagaRepository;
             _carroRepository = carroRepository;
             _ocupacaoRepository = ocupacaoRepository;
             _unitOfWork = unitOfWork;
+            _tarifaConfig = tarifaConfig.Value;
         }
 
         public async Task<IEnumerable<Vaga>> ListarVagasAsync()
@@ -67,7 +75,7 @@ namespace Estacionamento.Application.Services
 
 
 
-        public async Task<string> RegistrarSaidaAsync(string placa)
+        public async Task<VagaSaidaResponseDto> RegistrarSaidaAsync(string placa)
         {
             var carro = await _carroRepository.ObterPorPlacaAsync(placa);
             if (carro == null)
@@ -79,7 +87,7 @@ namespace Estacionamento.Application.Services
 
             ocupacao.Saida = DateTime.Now;
 
-            var valor = ocupacao.CalcularValor(5); // exemplo: R$5 por hora
+            var valor = ocupacao.CalcularValor(_tarifaConfig.ValorPorHora);
 
             await _ocupacaoRepository.AtualizarAsync(ocupacao);
 
@@ -92,7 +100,21 @@ namespace Estacionamento.Application.Services
 
             await _unitOfWork.CommitAsync();
 
-            return $"Tempo: {ocupacao.TempoOcupado.TotalMinutes:N0} min. Valor a pagar: R$ {valor:F2}";
+            // Criar resposta detalhada
+            var response = new VagaSaidaResponseDto
+            {
+                Placa = carro.Placa,
+                Modelo = carro.Modelo,
+                Cor = carro.Cor,
+                NumeroVaga = vaga?.Numero ?? 0,
+                Entrada = ocupacao.Entrada,
+                Saida = ocupacao.Saida.Value,
+                TempoMinutos = (int)ocupacao.TempoOcupado.TotalMinutes,
+                ValorPorHora = _tarifaConfig.ValorPorHora,
+                ValorTotal = valor
+            };
+
+            return response;
         }
 
         public async Task<IEnumerable<VagaOcupadaDto>> ListarVagasOcupadasAsync()

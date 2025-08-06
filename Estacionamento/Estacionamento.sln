@@ -12,6 +12,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estacionamento.API", "Estacionamento.API\Estacionamento.API.csproj", "{2511C2AB-6765-48CF-BC0E-9CAF3CE12425}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estacionamento.BlazorUI", "Estacionamento.BlazorUI\Estacionamento.BlazorUI.csproj", "{0DC32540-72F4-4E25-ADBD-9AD40ACFCBAE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4EDC08A7-5B81-4E9F-9906-2FEE9F704823} = {4EDC08A7-5B81-4E9F-9906-2FEE9F704823}
+		{E28CD231-A22E-4AC1-AAB0-4AC7AD99F4A1} = {E28CD231-A22E-4AC1-AAB0-4AC7AD99F4A1}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -86,5 +90,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A46148DF-909D-489A-B2E2-09875CA4A127}
 	EndGlobalSection
 EndGlobal

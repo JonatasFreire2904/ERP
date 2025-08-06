@@ -1,9 +1,10 @@
-﻿using Estacionamento.Domain.Interfaces;
+using Estacionamento.Domain.Interfaces;
 using Estacionamento.Infrastructure.Data;
 using Estacionamento.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Estacionamento.Application.Interfaces;
 using Estacionamento.Application.Services;
+using Estacionamento.Application.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,7 +17,18 @@ builder.Services.AddScoped<IVagaRepository, VagaRepository>();
 builder.Services.AddScoped<ICarroRepository, CarroRepository>();
 builder.Services.AddScoped<IOcupacaoRepository, OcupacaoRepository>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+// Configuração da Tarifa
+builder.Services.Configure<TarifaConfig>(builder.Configuration.GetSection("TarifaConfig"));
+
+// Registrar o caminho do arquivo de configuração para o serviço de configuração
+var configFilePath = Path.Combine(Directory.GetCurrentDirectory(), "appsettings.json");
+builder.Services.AddSingleton(configFilePath);
+
+// Registrar serviços
 builder.Services.AddScoped<IVagaService, VagaService>();
+builder.Services.AddScoped<ITarifaConfigService, TarifaConfigService>();
+builder.Services.AddScoped<INotaFiscalService, NotaFiscalService>();
 
 // 📦 AddControllers + Swagger
 builder.Services.AddControllers();

@@ -1,4 +1,4 @@
-﻿using Estacionamento.Application.Models;
+using Estacionamento.Application.Models;
 using Estacionamento.Domain.Entities;
 
 namespace Estacionamento.Application.Interfaces
@@ -7,7 +7,7 @@ namespace Estacionamento.Application.Interfaces
     {
         Task<IEnumerable<Vaga>> ListarVagasAsync();
         Task<Vaga> RegistrarEntradaAsync(VagaEntradaDto dto);
-        Task<string> RegistrarSaidaAsync(string placa);
+        Task<VagaSaidaResponseDto> RegistrarSaidaAsync(string placa);
         Task<IEnumerable<VagaOcupadaDto>> ListarVagasOcupadasAsync(); // Novo método
     }
 }

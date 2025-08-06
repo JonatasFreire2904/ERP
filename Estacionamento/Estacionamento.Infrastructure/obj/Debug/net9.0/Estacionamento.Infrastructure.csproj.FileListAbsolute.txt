@@ -1,4 +1,5 @@
 C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Infrastructure\bin\Debug\net9.0\Estacionamento.Infrastructure.deps.json
+C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Infrastructure\bin\Debug\net9.0\Estacionamento.Infrastructure.runtimeconfig.json
 C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Infrastructure\bin\Debug\net9.0\Estacionamento.Infrastructure.dll
 C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Infrastructure\bin\Debug\net9.0\Estacionamento.Infrastructure.pdb
 C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Infrastructure\bin\Debug\net9.0\Estacionamento.Domain.dll
@@ -12,6 +13,5 @@ C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Infra
 C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Infrastructure\obj\Debug\net9.0\Estacionamento.Infrastructure.dll
 C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Infrastructure\obj\Debug\net9.0\refint\Estacionamento.Infrastructure.dll
 C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Infrastructure\obj\Debug\net9.0\Estacionamento.Infrastructure.pdb
-C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Infrastructure\obj\Debug\net9.0\ref\Estacionamento.Infrastructure.dll
-C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Infrastructure\bin\Debug\net9.0\Estacionamento.Infrastructure.runtimeconfig.json
 C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Infrastructure\obj\Debug\net9.0\Estacionamento.Infrastructure.genruntimeconfig.cache
+C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Infrastructure\obj\Debug\net9.0\ref\Estacionamento.Infrastructure.dll

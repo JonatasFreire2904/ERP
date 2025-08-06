@@ -28,16 +28,16 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/jonat/Desktop/Newton/estacionamento/Estacionamento/Estacionamento.BlazorUI/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+[c:/Users/jonat/Desktop/Newton/estacionamento/Estacionamento/Estacionamento.BlazorUI/Pages/Estacionamento.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXN0YWNpb25hbWVudG8ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/jonat/Desktop/Newton/estacionamento/Estacionamento/Estacionamento.BlazorUI/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+[c:/Users/jonat/Desktop/Newton/estacionamento/Estacionamento/Estacionamento.BlazorUI/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/jonat/Desktop/Newton/estacionamento/Estacionamento/Estacionamento.BlazorUI/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
+[c:/Users/jonat/Desktop/Newton/estacionamento/Estacionamento/Estacionamento.BlazorUI/Services/AuthService.razor]
+build_metadata.AdditionalFiles.TargetPath = U2VydmljZXNcQXV0aFNlcnZpY2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [c:/Users/jonat/Desktop/Newton/estacionamento/Estacionamento/Estacionamento.BlazorUI/_Imports.razor]

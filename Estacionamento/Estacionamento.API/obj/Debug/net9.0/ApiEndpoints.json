@@ -1,5 +1,31 @@
 [
   {
+    "ContainingType": "Estacionamento.API.Controllers.ConfigController",
+    "Method": "GetTarifaConfig",
+    "RelativePath": "api/config/tarifa",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Estacionamento.API.Controllers.ConfigController",
+    "Method": "UpdateTarifaConfig",
+    "RelativePath": "api/config/tarifa",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tarifaConfig",
+        "Type": "Estacionamento.Application.Models.TarifaConfig",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Estacionamento.API.Controllers.VagasController",
     "Method": "ListarVagas",
     "RelativePath": "api/vaga",
@@ -39,6 +65,38 @@
     "ContainingType": "Estacionamento.API.Controllers.VagasController",
     "Method": "RegistrarSaida",
     "RelativePath": "api/vaga/saida",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Estacionamento.Application.Models.VagaSaidaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Estacionamento.API.Controllers.VagasController",
+    "Method": "RegistrarSaidaComNotaFiscal",
+    "RelativePath": "api/vaga/saida/notafiscal",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Estacionamento.Application.Models.VagaSaidaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Estacionamento.API.Controllers.VagasController",
+    "Method": "DownloadNotaFiscal",
+    "RelativePath": "api/vaga/saida/notafiscal/download",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
