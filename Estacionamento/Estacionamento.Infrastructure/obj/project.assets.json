@@ -3189,23 +3189,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jonat\\.nuget\\packages\\": {},
+    "C:\\Users\\login\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Infrastructure\\Estacionamento.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\login\\OneDrive\\Documentos\\GitHub\\ERP\\Estacionamento\\Estacionamento.Infrastructure\\Estacionamento.Infrastructure.csproj",
       "projectName": "Estacionamento.Infrastructure",
-      "projectPath": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Infrastructure\\Estacionamento.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\jonat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Infrastructure\\obj\\",
+      "projectPath": "C:\\Users\\login\\OneDrive\\Documentos\\GitHub\\ERP\\Estacionamento\\Estacionamento.Infrastructure\\Estacionamento.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\login\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\login\\OneDrive\\Documentos\\GitHub\\ERP\\Estacionamento\\Estacionamento.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\jonat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\login\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3214,14 +3214,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Domain\\Estacionamento.Domain.csproj": {
-              "projectPath": "C:\\Users\\jonat\\Desktop\\Newton\\estacionamento\\Estacionamento\\Estacionamento.Domain\\Estacionamento.Domain.csproj"
+            "C:\\Users\\login\\OneDrive\\Documentos\\GitHub\\ERP\\Estacionamento\\Estacionamento.Domain\\Estacionamento.Domain.csproj": {
+              "projectPath": "C:\\Users\\login\\OneDrive\\Documentos\\GitHub\\ERP\\Estacionamento\\Estacionamento.Domain\\Estacionamento.Domain.csproj"
             }
           }
         }
@@ -3236,7 +3237,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net9.0": {
@@ -3291,7 +3292,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Estacionamento.Application"
+    "\\Estacionamento.Application",
+    "\\Estacionamento.BlazorUI"
   ],
   "SelectedNode": "\\Estacionamento.sln",
   "PreviewInSolutionExplorer": false

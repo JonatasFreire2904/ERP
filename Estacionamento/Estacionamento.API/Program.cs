@@ -8,59 +8,63 @@ using Estacionamento.Application.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// 🔧 Configurar o DbContext com SQLite
+// 🔧 DbContext (SQLite)
 builder.Services.AddDbContext<EstacionamentoDbContext>(options =>
     options.UseSqlite("Data Source=estacionamento.db"));
 
-// 💉 Injeção de Dependência dos Repositórios e UnitOfWork
+// 💉 DI – Repositórios e UoW
 builder.Services.AddScoped<IVagaRepository, VagaRepository>();
 builder.Services.AddScoped<ICarroRepository, CarroRepository>();
 builder.Services.AddScoped<IOcupacaoRepository, OcupacaoRepository>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
-// Configuração da Tarifa
+// ⚙️ Config de Tarifa
 builder.Services.Configure<TarifaConfig>(builder.Configuration.GetSection("TarifaConfig"));
 
-// Registrar o caminho do arquivo de configuração para o serviço de configuração
+// 👉 Caminho do appsettings (se precisar em serviços)
 var configFilePath = Path.Combine(Directory.GetCurrentDirectory(), "appsettings.json");
 builder.Services.AddSingleton(configFilePath);
 
-// Registrar serviços
+// 🧩 Serviços de aplicação
 builder.Services.AddScoped<IVagaService, VagaService>();
 builder.Services.AddScoped<ITarifaConfigService, TarifaConfigService>();
 builder.Services.AddScoped<INotaFiscalService, NotaFiscalService>();
 
-// 📦 AddControllers + Swagger
+// 📦 Controllers + Swagger
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// 🌐 CORS (para Blazor WebAssembly)
+// 🌐 CORS (libera a origem do Blazor)
+const string BlazorCors = "AllowBlazor";
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowBlazor",
-        policy =>
-        {
-            policy.AllowAnyOrigin()
-                  .AllowAnyHeader()
-                  .AllowAnyMethod();
-        });
+    options.AddPolicy(BlazorCors, policy =>
+        policy.WithOrigins(
+                "https://localhost:7109", // Blazor HTTPS
+                "http://localhost:5292"   // Blazor HTTP
+            )
+            .AllowAnyHeader()
+            .AllowAnyMethod()
+    );
 });
 
 var app = builder.Build();
 
-// 🛠 Middleware de desenvolvimento
+// 🛠 Dev middleware
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
-// 🌐 Ativar CORS
-app.UseCors("AllowBlazor");
-
 app.UseHttpsRedirection();
+
+// 🌐 Ativar CORS (antes de mapear controllers)
+app.UseCors(BlazorCors);
+
 app.UseAuthorization();
+
 app.MapControllers();
 
 app.Run();

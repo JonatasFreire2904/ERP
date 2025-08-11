@@ -1,5 +1,189 @@
-﻿@page "/estacionamento"
+﻿@using Estacionamento.BlazorUI.Models
+@using Estacionamento.BlazorUI.Services
 
-<h3>Bem-vindo ao Sistema de Estacionamento</h3>
 
-<p>Aqui virá o painel principal futuramente.</p>
+@page "/estacionamento"
+@inject ApiClient Api
+
+<h3>Vagas do Estacionamento</h3>
+
+@if (loading)
+{
+    <p>Carregando...</p>
+}
+else
+{
+    <div class="grid">
+        @foreach (var v in vagas.OrderBy(v => v.Numero))
+        {
+            var info = ocupadas.FirstOrDefault(o => o.Numero == v.Numero);
+            <div class="slot @(v.Ocupada ? "ocupada" : "livre")" @onclick="@(() => OnClickVaga(v, info))">
+                <div class="num">V@(v.Numero)</div>
+                @if (v.Ocupada && info is not null)
+                {
+                    <div class="placa">@info.Placa</div>
+                    <button class="btn-s" @onclick="@(e => OnSaida(info.Placa))">Saída</button>
+                }
+                else
+                {
+                    <div class="status">Livre</div>
+                }
+            </div>
+        }
+    </div>
+}
+
+@if (abrirEntrada)
+{
+    <div class="modal">
+        <div class="card">
+            <h4>Entrada - Vaga @entrada.Numero</h4>
+            <EditForm Model="@entrada" OnValidSubmit="ConfirmarEntrada">
+                <div class="form">
+                    <InputText @bind-Value="entrada.Placa" placeholder="Placa" />
+                    <InputText @bind-Value="entrada.Modelo" placeholder="Modelo" />
+                    <InputText @bind-Value="entrada.Cor" placeholder="Cor" />
+                </div>
+                <div class="row">
+                    <button type="submit">Confirmar</button>
+                    <button type="button" @onclick="() => abrirEntrada = false">Cancelar</button>
+                </div>
+            </EditForm>
+        </div>
+    </div>
+}
+
+@if (saidaInfo is not null)
+{
+    <div class="toast">
+        <div><b>Saída concluída</b> — Vaga @saidaInfo.NumeroVaga</div>
+        <div>Placa @saidaInfo.Placa • Tempo @saidaInfo.TempoMinutos min • Total R$ @saidaInfo.ValorTotal</div>
+        <button class="btn-s" @onclick="() => saidaInfo = null">Fechar</button>
+    </div>
+}
+
+@code {
+    private bool loading = true;
+    private List<Vaga> vagas = new();
+    private List<VagaOcupadaDto> ocupadas = new();
+    private bool abrirEntrada = false;
+    private VagaEntradaDto entrada = new();
+    private VagaSaidaResponseDto? saidaInfo;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Reload();
+    }
+
+    private async Task Reload()
+    {
+        loading = true;
+        vagas = await Api.GetVagas();
+        ocupadas = await Api.GetVagasOcupadas();
+        loading = false;
+        StateHasChanged();
+    }
+
+    private void OnClickVaga(Vaga v, VagaOcupadaDto? info)
+    {
+        if (v.Ocupada) return; // ocupado: botão de saída já aparece na célula
+        entrada = new VagaEntradaDto { Numero = v.Numero };
+        abrirEntrada = true;
+    }
+
+    private async Task ConfirmarEntrada()
+    {
+        await Api.RegistrarEntrada(entrada);
+        abrirEntrada = false;
+        await Reload();
+    }
+
+    private async Task OnSaida(string placa)
+    {
+        saidaInfo = await Api.RegistrarSaida(placa);
+        await Reload();
+    }
+}
+
+<style>
+    .grid {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(auto-fill, minmax(110px,1fr));
+        margin-top: 12px;
+    }
+
+    .slot {
+        border: 1px solid #ccc;
+        border-radius: 12px;
+        padding: 10px;
+        cursor: pointer;
+        user-select: none;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        align-items: center;
+    }
+
+        .slot.livre {
+            background: #f5fff5;
+        }
+
+        .slot.ocupada {
+            background: #fff5f5;
+        }
+
+    .num {
+        font-weight: 600;
+    }
+
+    .placa {
+        font-size: 0.9rem;
+    }
+
+    .btn-s {
+        font-size: 0.85rem;
+        padding: 4px 8px;
+    }
+
+    .modal {
+        position: fixed;
+        inset: 0;
+        background: #0006;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card {
+        background: #fff;
+        padding: 16px;
+        border-radius: 12px;
+        width: 320px;
+        display: grid;
+        gap: 10px;
+    }
+
+    .form {
+        display: grid;
+        gap: 8px;
+    }
+
+    .row {
+        display: flex;
+        gap: 8px;
+        justify-content: flex-end;
+    }
+
+    .toast {
+        position: fixed;
+        right: 16px;
+        bottom: 16px;
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 12px;
+        padding: 12px;
+        display: grid;
+        gap: 6px;
+    }
+</style>

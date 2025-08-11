@@ -4,3 +4,11 @@ C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Blazo
 C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.BlazorUI\obj\Debug\net9.0\Estacionamento.BlazorUI.AssemblyInfo.cs
 C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.BlazorUI\obj\Debug\net9.0\Estacionamento.BlazorUI.csproj.CoreCompileInputs.cache
 C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.BlazorUI\obj\Debug\net9.0\Estacionamento.BlazorUI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\login\OneDrive\Documentos\GitHub\ERP\Estacionamento\Estacionamento.BlazorUI\obj\Debug\net9.0\Estacionamento.BlazorUI.csproj.AssemblyReference.cache
+C:\Users\login\OneDrive\Documentos\GitHub\ERP\Estacionamento\Estacionamento.BlazorUI\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\login\OneDrive\Documentos\GitHub\ERP\Estacionamento\Estacionamento.BlazorUI\obj\Debug\net9.0\Estacionamento.BlazorUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\login\OneDrive\Documentos\GitHub\ERP\Estacionamento\Estacionamento.BlazorUI\obj\Debug\net9.0\Estacionamento.BlazorUI.AssemblyInfoInputs.cache
+C:\Users\login\OneDrive\Documentos\GitHub\ERP\Estacionamento\Estacionamento.BlazorUI\obj\Debug\net9.0\Estacionamento.BlazorUI.AssemblyInfo.cs
+C:\Users\login\OneDrive\Documentos\GitHub\ERP\Estacionamento\Estacionamento.BlazorUI\obj\Debug\net9.0\Estacionamento.BlazorUI.csproj.CoreCompileInputs.cache
+C:\Users\login\OneDrive\Documentos\GitHub\ERP\Estacionamento\Estacionamento.BlazorUI\obj\Debug\net9.0\Estacionamento.BlazorUI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\login\OneDrive\Documentos\GitHub\ERP\Estacionamento\Estacionamento.BlazorUI\obj\Debug\net9.0\Estacionamento.BlazorUI.sourcelink.json

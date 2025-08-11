@@ -1,29 +1,20 @@
 ﻿@page "/login"
-
 @inject NavigationManager Navigation
 
 <h3>Login</h3>
 
 @if (!string.IsNullOrEmpty(erro))
 {
-    <div class="alert alert-danger">@erro</div>
+    <div style="color:#b00020; margin-bottom:10px">@erro</div>
 }
 
 <EditForm Model="@usuario" OnValidSubmit="ValidarLogin">
     <DataAnnotationsValidator />
-    <ValidationSummary />
-
-    <div class="mb-3">
-        <label>Usuário</label>
-        <InputText class="form-control" @bind-Value="usuario.Login" />
+    <div style="display:grid; gap:8px; max-width:280px">
+        <InputText @bind-Value="usuario.Login" placeholder="Usuário" />
+        <InputText @bind-Value="usuario.Senha" placeholder="Senha" type="password" />
+        <button type="submit">Entrar</button>
     </div>
-
-    <div class="mb-3">
-        <label>Senha</label>
-        <InputText class="form-control" type="password" @bind-Value="usuario.Senha" />
-    </div>
-
-    <button type="submit" class="btn btn-primary">Entrar</button>
 </EditForm>
 
 @code {
@@ -33,14 +24,9 @@
     private void ValidarLogin()
     {
         if (usuario.Login == "est" && usuario.Senha == "est")
-        {
-            erro = null;
-            Navigation.NavigateTo("/estacionamento");
-        }
+            Navigation.NavigateTo("/estacionamento", true);
         else
-        {
-            erro = "Usuário ou senha inválidos.";
-        }
+            erro = "Usuário ou senha inválidos (use est / est).";
     }
 
     public class UsuarioLogin

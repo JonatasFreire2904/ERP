@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Novo Perfil",
+    "Projects": [
+      {
+        "Path": "Estacionamento.API\\Estacionamento.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Estacionamento.BlazorUI\\Estacionamento.BlazorUI.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

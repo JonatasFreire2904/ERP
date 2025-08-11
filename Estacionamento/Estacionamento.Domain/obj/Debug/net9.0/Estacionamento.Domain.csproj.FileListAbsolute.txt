@@ -9,3 +9,15 @@ C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Domai
 C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Domain\obj\Debug\net9.0\refint\Estacionamento.Domain.dll
 C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Domain\obj\Debug\net9.0\Estacionamento.Domain.pdb
 C:\Users\jonat\Desktop\Newton\estacionamento\Estacionamento\Estacionamento.Domain\obj\Debug\net9.0\ref\Estacionamento.Domain.dll
+C:\Users\login\OneDrive\Documentos\GitHub\ERP\Estacionamento\Estacionamento.Domain\bin\Debug\net9.0\Estacionamento.Domain.deps.json
+C:\Users\login\OneDrive\Documentos\GitHub\ERP\Estacionamento\Estacionamento.Domain\bin\Debug\net9.0\Estacionamento.Domain.dll
+C:\Users\login\OneDrive\Documentos\GitHub\ERP\Estacionamento\Estacionamento.Domain\bin\Debug\net9.0\Estacionamento.Domain.pdb
+C:\Users\login\OneDrive\Documentos\GitHub\ERP\Estacionamento\Estacionamento.Domain\obj\Debug\net9.0\Estacionamento.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\login\OneDrive\Documentos\GitHub\ERP\Estacionamento\Estacionamento.Domain\obj\Debug\net9.0\Estacionamento.Domain.AssemblyInfoInputs.cache
+C:\Users\login\OneDrive\Documentos\GitHub\ERP\Estacionamento\Estacionamento.Domain\obj\Debug\net9.0\Estacionamento.Domain.AssemblyInfo.cs
+C:\Users\login\OneDrive\Documentos\GitHub\ERP\Estacionamento\Estacionamento.Domain\obj\Debug\net9.0\Estacionamento.Domain.csproj.CoreCompileInputs.cache
+C:\Users\login\OneDrive\Documentos\GitHub\ERP\Estacionamento\Estacionamento.Domain\obj\Debug\net9.0\Estacionamento.Domain.sourcelink.json
+C:\Users\login\OneDrive\Documentos\GitHub\ERP\Estacionamento\Estacionamento.Domain\obj\Debug\net9.0\Estacionamento.Domain.dll
+C:\Users\login\OneDrive\Documentos\GitHub\ERP\Estacionamento\Estacionamento.Domain\obj\Debug\net9.0\refint\Estacionamento.Domain.dll
+C:\Users\login\OneDrive\Documentos\GitHub\ERP\Estacionamento\Estacionamento.Domain\obj\Debug\net9.0\Estacionamento.Domain.pdb
+C:\Users\login\OneDrive\Documentos\GitHub\ERP\Estacionamento\Estacionamento.Domain\obj\Debug\net9.0\ref\Estacionamento.Domain.dll
